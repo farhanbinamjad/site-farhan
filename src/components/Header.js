@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
+import Projects from './Projects';
 
 function Header() {
     return (
@@ -12,8 +14,8 @@ function Header() {
 			</div>
             <div class = "row text-center">
             <div class = "banner-buttons">
-            <a href="#" className="btn-main-offer">Info</a>
-            <a href="#" className="btn-main-offer">Portfolio</a>
+            <Link to="./contact" className="btn-main-offer">Info</Link>
+            <Link to="./portfolio" className="btn-main-offer">Portfolio</Link>
             </div>
             </div>
             </div>

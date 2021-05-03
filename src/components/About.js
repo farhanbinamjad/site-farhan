@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './About.css';
 
 function About() {
@@ -51,7 +52,8 @@ function About() {
             <div class = "row">
                 <div class = "about-option-buttons">
                     <div class = "col-sm-2 col-md-2">
-                        <a href = "#contact" class = "btn btn-default btn-black-border">Contact</a>
+                        <Link to='/contact' className="btn btn-default btn-black-border">Contact</Link>
+
                     </div>
                 </div>
             </div>
