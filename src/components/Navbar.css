@@ -1,0 +1,32 @@
+.body{
+    font-family: "Roboto"
+}
+
+.logo{
+    width: 4rem;
+    margin-left: 0.0375rem;
+}
+
+nav a.nav-link{
+    font-weight: 300;
+    font-size: x-large;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+
+
+}.navbar-nav > li > a {
+    color: white !important;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+
+.navbar-brand{
+    max-width:17.25rem;
+    padding: 1rem !important;
+    height: 6rem i !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover{
+    border-bottom: 0.1875rem solid #ffff;
+}
