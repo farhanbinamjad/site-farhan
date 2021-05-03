@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../images/logo.svg'
 import './Navbar.css'
 
@@ -14,13 +15,13 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <Link to='/' className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+        <Link to='/portfolio' className="nav-link">Portfolio</Link>>
         </li>
         <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+        <Link to='/contact' className="nav-link">Contact</Link>
         </li>
         
         </ul>
