@@ -1,5 +1,6 @@
 .body{
     font-family: "Roboto"
+    
 }
 
 .logo{
@@ -29,4 +30,5 @@ nav a.nav-link{
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:hover{
     border-bottom: 0.1875rem solid #ffff;
+
 }
