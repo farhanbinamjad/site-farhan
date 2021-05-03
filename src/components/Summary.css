@@ -1,5 +1,4 @@
 .summary {      
-    display: flex;;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
       url(../images/architecture-2178604_1920-main1.jpg);
     background-attachment: fixed;
@@ -8,14 +7,26 @@
     padding: 60px 30px;
   }
   
-  .summary .row {
-    flex: 1;
-    padding: 50px 6%;
+   
+  .row {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.summary .row {
+
+padding: 0;
     width: 100%;
   }
-  
+ 
   .summary h3 {
     font-family: "Source Sans Pro", Arial, sans-serif;
   }
 
-  
+  .responsive-summary{
+    box-sizing: unset;
+    padding: 0;
+  }

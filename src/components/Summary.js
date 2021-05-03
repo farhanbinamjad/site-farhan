@@ -3,7 +3,7 @@ import img1 from "../images/developerdesign.svg";
 import img2 from "../images/responsivedesign.svg";
 import img3 from "../images/innovativesolutions.svg";
 import img4 from "../images/passion.svg";
-
+import './Summary.css'
 function Summary() {
     return (
         <div className= "summary">

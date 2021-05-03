@@ -13,10 +13,16 @@
   .linkedin,
   .pinterest,
   .email-icon {
-    padding: 31%;
+    padding: 3%;
+  }
+
+  img.img-responsive{
+    width: 40px;
+height: 40px;
   }
   .footer img {
     background-color: #8a8a8a;
+
     -webkit-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
@@ -50,3 +56,4 @@
   .resume-footer a:hover,
   .contact-footer a:hover {
   }
+
